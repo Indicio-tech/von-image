@@ -115,6 +115,16 @@ VERSIONS = {
             "indy_postgres_url": "https://codeload.github.com/hyperledger/indy-sdk/tar.gz/9fbbb7939440b67e92f2698e868f14c2432cce72",
         },
     },
+    "1.16.0ssl": {
+        "path": "1.10",
+        "version": "1.16-0",
+        "args": {
+            # 1.16.0 release
+            "indy_sdk_url": "https://codeload.github.com/hyperledger/indy-sdk/tar.gz/b4b330ef326958d593ab42e25679c2dcd655494c",
+            "rust_version": "1.46.0",
+            "indy_postgres_url": "https://codeload.github.com/indicio-tech/indy-sdk/tar.gz/refs/tags/v1.16.0-ssl",
+        },
+    },
     "next-2": {
         "path": "next",
         "args": {
